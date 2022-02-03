@@ -32,3 +32,7 @@ function deleteItem(itemId: any) {
 
   localStorage.setItem(LOCAL_KEY, JSON.stringify(newData))
 }
+
+// see in chrome service worker  console
+// see https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked
+console.log('Hello from index')
