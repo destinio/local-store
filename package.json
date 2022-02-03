@@ -1,0 +1,25 @@
+{
+  "name": "local-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/destinio/local-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/destinio/local-store/issues"
+  },
+  "homepage": "https://github.com/destinio/local-store#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "typescript": "^4.5.5"
+  }
+}

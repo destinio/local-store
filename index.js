@@ -12,6 +12,9 @@ function setData(data) {
 function addItem(updatedItem) {
     const currentData = JSON.parse(localStorage.getItem(LOCAL_KEY));
     const newData = [...currentData, updatedItem];
+    localStorage.setItem(LOCAL_KEY, JSON.stringify(newData));
+    // returning is only if you need the new data
+    return newData;
 }
 function deleteItem(itemId) {
     const currentData = JSON.parse(localStorage.getItem(LOCAL_KEY));
